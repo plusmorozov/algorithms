@@ -1,7 +1,7 @@
 package algorithms;
 
 public class BinarySearch {
-    public static int runBinarySearch(int[] sortedArray, int key) {
+    public static int binarySearch(int[] sortedArray, int key) {
         int low = 0;
         int hight = sortedArray.length - 1;
         while (low <= hight) {
